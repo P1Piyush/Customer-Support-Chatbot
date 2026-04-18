@@ -1,0 +1,182 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "howdy",
+        "hi there",
+        "hey there",
+        "what's up",
+        "greetings"
+      ],
+      "responses": [
+        "Hello! Welcome to Customer Support. How can I help you today?",
+        "Hi there! I'm here to assist you. What can I do for you?",
+        "Hey! Great to see you. How can I assist you today?",
+        "Good day! How may I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "see you",
+        "goodbye",
+        "take care",
+        "later",
+        "see you later",
+        "have a good day",
+        "bye bye",
+        "farewell",
+        "good night"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day. Feel free to reach out anytime!",
+        "Take care! We're always here if you need help.",
+        "Bye! Thanks for contacting support. Have a great day!",
+        "See you later! Don't hesitate to come back if you have more questions."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "appreciate it",
+        "cheers",
+        "thank you so much",
+        "many thanks",
+        "thanks a lot",
+        "that was helpful",
+        "you are helpful",
+        "great help"
+      ],
+      "responses": [
+        "You're welcome! Happy to help. Is there anything else I can assist you with?",
+        "Glad I could help! Let me know if you need anything else.",
+        "My pleasure! Feel free to ask if you have more questions.",
+        "Anytime! Your satisfaction is our priority."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order",
+        "track my order",
+        "order status",
+        "when will my order arrive",
+        "shipment update",
+        "check my order",
+        "where is my package",
+        "has my order shipped",
+        "delivery status",
+        "order tracking",
+        "when will i receive my order",
+        "package location"
+      ],
+      "responses": [
+        "To track your order, please visit our website and enter your order ID in the 'Track Order' section. You can also find the tracking link in your confirmation email.",
+        "You can check your order status by logging into your account and navigating to 'My Orders'. Your tracking number should be there.",
+        "For order tracking, please share your order ID and I'll help you check the status. Alternatively, check your email for a tracking link.",
+        "Your order status can be found under 'My Orders' in your account dashboard. Typical delivery takes 3-7 business days."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "i want a refund",
+        "how to return",
+        "refund request",
+        "return policy",
+        "money back",
+        "get my money back",
+        "return an item",
+        "how do i return",
+        "refund process",
+        "i want to return my order",
+        "cancel and refund",
+        "refund status"
+      ],
+      "responses": [
+        "Our refund policy allows returns within 30 days of purchase. To initiate a return, go to 'My Orders', select the item, and click 'Request Return'. Refunds are processed within 5-7 business days.",
+        "You can request a refund by visiting the Returns section on our website. Please have your order number ready. Refunds typically take 5-7 business days to reflect in your account.",
+        "To return an item, please ensure it is unused and in original packaging. Visit our Returns portal or contact us with your order ID. We'll guide you through the process.",
+        "Refund requests are easy! Log in to your account, go to 'My Orders', select the item, and choose 'Return/Refund'. Our team will review your request within 24 hours."
+      ]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "tell me about your products",
+        "what do you sell",
+        "product details",
+        "what items are available",
+        "product catalog",
+        "show me your products",
+        "what can i buy",
+        "product list",
+        "available products",
+        "what are your offerings",
+        "product range",
+        "do you have"
+      ],
+      "responses": [
+        "We offer a wide range of products including electronics, clothing, home appliances, and accessories. Visit our website to browse the full catalog with filters and deals.",
+        "Our product range includes thousands of items across multiple categories. You can search for specific products on our website or app using keywords or filters.",
+        "We carry products in categories like Electronics, Fashion, Home & Kitchen, Sports, and more. Check out our 'New Arrivals' and 'Best Sellers' sections for popular items.",
+        "Explore our full product catalog at our website. We update inventory daily with new products and seasonal deals. You can also filter by price, brand, and rating."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "i have a complaint",
+        "this is not working",
+        "bad experience",
+        "i am unhappy",
+        "poor service",
+        "worst service",
+        "i am disappointed",
+        "this is terrible",
+        "not satisfied",
+        "very bad",
+        "problem with my order",
+        "issue with product"
+      ],
+      "responses": [
+        "I'm really sorry to hear about your experience. Your feedback is important to us. Could you please share more details so we can resolve this for you immediately?",
+        "I sincerely apologize for the inconvenience caused. Please share your order ID and describe the issue, and our team will prioritize resolving this for you.",
+        "We're truly sorry you're having a bad experience. This is not the standard we aim for. Please share the details and we'll make it right as soon as possible.",
+        "I understand your frustration and I'm sorry about this. Let me escalate your concern to our specialized team. Please provide your contact details and order information."
+      ]
+    },
+    {
+      "tag": "human_agent",
+      "patterns": [
+        "talk to human",
+        "connect me to agent",
+        "speak to representative",
+        "real person please",
+        "live agent",
+        "talk to a person",
+        "human support",
+        "agent please",
+        "i want to speak to someone",
+        "connect me to support",
+        "live chat with person",
+        "customer service representative"
+      ],
+      "responses": [
+        "I'll connect you to a live agent right away! Our support team is available Monday to Friday, 9 AM - 6 PM. Please hold on or call us at 1-800-SUPPORT.",
+        "Sure! Let me transfer you to one of our human agents. Current wait time is approximately 3-5 minutes. You can also reach us at support@company.com.",
+        "Connecting you to a live representative now. If the wait is too long, you can also email us at support@company.com or call 1-800-SUPPORT for immediate help.",
+        "Of course! A human agent will be with you shortly. Our support hours are 9 AM to 9 PM daily. You can also reach us via email for non-urgent queries."
+      ]
+    }
+  ]
+}
